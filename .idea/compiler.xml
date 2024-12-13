@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-study-IO" />
+        <module name="spring-security-study" />
+        <module name="java-excel-template" />
+        <module name="java-design-patterns" />
+        <module name="sa-token-study" />
+        <module name="algorithm-code-java" />
+        <module name="exercitation-experience-API" />
+        <module name="netty-study-code" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exercitation-experience-API" options="-parameters" />
+      <module name="java-excel-template" options="-parameters" />
+      <module name="java-study-IO" options="-parameters" />
+      <module name="netty-study-code" options="" />
+      <module name="sa-token-study" options="-parameters" />
+      <module name="spring-security-study" options="-parameters" />
+    </option>
+  </component>
+</project>

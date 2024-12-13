@@ -1,0 +1,27 @@
+server:
+  port: 7777
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.137.51.254:3306/llm-job-recommendation-java?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: zjh20040724
+    hikari:
+      maximum-pool-size: 20       # 最大连接数（根据数据库和应用需求调整）
+      minimum-idle: 5            # 最小空闲连接数
+      idle-timeout: 30000        # 空闲连接存活时间，单位毫秒
+      connection-timeout: 30000  # 获取连接超时时间，单位毫秒
+      max-lifetime: 1800000      # 连接最大存活时间，单位毫秒
+  redis:
+    password: zjh20040724
+    database: 3
+    host: 8.137.51.254
+    port: 6379
+# 控制台日志输出
+logging:
+  level:
+    com:
+      remember:
+        mapper: debug
+        service: info
+        controller: info
