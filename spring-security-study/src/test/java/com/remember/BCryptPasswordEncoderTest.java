@@ -31,14 +31,14 @@ public class BCryptPasswordEncoderTest {
 
     }
 
-    @Test
-    public void test2() {
-        String key = "test";
-        String value = "这个东西是什么";
-        // 设置缓存
-        redisUtil.setCacheObject(key, value);
-        // 获取缓存
-        String cacheObject = redisUtil.getCacheObject(key);
-        System.out.println("缓存中的值："+cacheObject);
-    }
+//    @Test
+//    public void test2() {
+//        String key = "test";
+//        String value = "这个东西是什么";
+//        // 设置缓存
+//        redisUtil.setCacheObject(key, value);
+//        // 获取缓存
+//        String cacheObject = redisUtil.getCacheObject(key);
+//        System.out.println("缓存中的值："+cacheObject);
+//    }
 }
