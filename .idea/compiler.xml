@@ -7,12 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-study-code" />
         <module name="java-study-IO" />
         <module name="spring-security-study" />
         <module name="java-excel-template" />
         <module name="java-design-patterns" />
+        <module name="study-javase-code" />
+        <module name="sprinAI-study-code" />
         <module name="sa-token-study" />
         <module name="algorithm-code-java" />
+        <module name="multi-threaded-code" />
         <module name="exercitation-experience-API" />
         <module name="netty-study-code" />
       </profile>
@@ -26,6 +30,7 @@
       <module name="java-study-IO" options="-parameters" />
       <module name="netty-study-code" options="" />
       <module name="sa-token-study" options="-parameters" />
+      <module name="sprinAI-study-code" options="-parameters" />
       <module name="spring-security-study" options="-parameters" />
     </option>
   </component>

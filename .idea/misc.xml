@@ -17,6 +17,12 @@
         <option value="$PROJECT_DIR$/excel-template-java/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-study/pom.xml" />
         <option value="$PROJECT_DIR$/netty-study-code/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-threaded-code/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations-and-reflections/pom.xml" />
+        <option value="$PROJECT_DIR$/study-javase-code/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAI-deepseekR1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-code/pom.xml" />
+        <option value="$PROJECT_DIR$/sprinAI-study-code/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

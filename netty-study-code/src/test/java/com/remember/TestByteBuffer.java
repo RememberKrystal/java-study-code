@@ -10,7 +10,7 @@ import java.nio.channels.FileChannel;
 /*
  * @Author      : RememberKrystal
  * @Date        : 2024/12/9 17:38
- * @Description :
+ * @Description : byteBuffer基本使用
  */
 @Slf4j
 public class TestByteBuffer {
